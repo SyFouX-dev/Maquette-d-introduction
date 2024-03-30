@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 5%;
+    background-image: url("source/grille.png");
+    color: rgb(119, 119, 119);
+    padding: 40px;
+}
+
+nav li {
+    list-style: none;
+    color: rgb(119, 119, 119);
+}
+
+nav ul {
+    margin-left: 10px;
+}
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#logo {
+    margin-right: 5%;
+}
+
+#rouge,
+#jean,
+#vert,
+#bleu,
+#violet {
+    height: 5px;
+    border-style: none;
+}
+
+#rouge {
+    background-color: #fc6b04;
+}
+
+#jean {
+    background-color: rgb(252, 186, 4);
+}
+
+#vert {
+    background-color: rgb(91, 252, 4);
+}
+
+#bleu {
+    background-color: rgb(4, 62, 252);
+}
+
+#violet {
+    background-color: rgb(145, 4, 252);
+}
+#ytb {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#P {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(119, 119, 119);
+    display: flex;
+    justify-content: center;
+    background-image: url("source/grille.png");
+    padding: 40px;
+}
+
+#act{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-size: 15px;
+}
+
+#golf {
+    border: 1px solid rgb(119, 119, 119);
+}
+
+#golf h3,
+#golf h6,
+#golf h5 {
+    margin-left: 5%;
+    color: rgb(119, 119, 119);
+}
+#golf h3 {
+    color: #fc6b04;
+    margin-left: 5%;
+}
+
+#golf img {
+    object-fit: contain;
+}
+
+#golf {
+    border: 1px solid rgb(119, 119, 119);
+}
+
+#acro h3,
+#acro h6,
+#acro h5 {
+    margin-left: 5%;
+    color: rgb(119, 119, 119);
+}
+#acro h3 {
+    color: #fc6b04;
+    margin-left: 5%;
+}
+
+#fd h3,
+#fd h6,
+#fd h5 {
+    margin-left: 5%;
+    color: rgb(119, 119, 119);
+}
+#fd h3 {
+    color: #fc6b04;
+    margin-left: 5%;
+}
+
+#cm h3,
+#cm h6,
+#cm h5 {
+    margin-left: 5%;
+    color: rgb(119, 119, 119);
+}
+#cm h3 {
+    color: #fc6b04;
+    margin-left: 5%;
+}
+
+#cm img{
+    border: 1rem solid white;
+}
+
+#info{
+    background-image: url("source/grille.png");
+    display: flex;
+    justify-content: center;
+}
+
+#info li {
+    list-style: none;
+    color: rgb(119, 119, 119);
+}
+
+#info ul{
+    width: 230px;
+    margin: 20px;
+}
+
+#info h3{
+    color: rgb(119, 119, 119);
+}
+
+.NC{
+    display: flex;
+}
+
+#fin{
+    justify-content: center;
+    margin-left: 25%;
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+
+#resaux{
+    margin-left: 40%;
+}
+
+.in{
+    display: flex;
+}
+.titre_footer {
+    margin-bottom: 10%;
+}
+
+.pa{
+    margin-bottom: 8%;
+    font-weight: bold;
+}
+
+.date{
+    margin-bottom: 5%;
+    font-style: italic;
+}
